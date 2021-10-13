@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Practica.Models
 {
-    public class Practica
+    public class Practicas
     {
         [Key]
-        private static readonly string[] Summaries = new[]
+        public int NameId { get; set; }
+
+        private static readonly string[] NameNaipe = new[]
         {
             "A", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"
         };
